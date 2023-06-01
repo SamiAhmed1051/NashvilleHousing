@@ -13,7 +13,7 @@ SET SalesDateConverted = CONVERT(Date, Saledate)
 
 -- Populate Property Address data
 SELECT *
-FROM NashvilleHousing 
+FROM NashvilleHousing   
 WHERE PropertyAddress IS NULL
 ORDER BY ParcelID
 
